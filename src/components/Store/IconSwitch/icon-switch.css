@@ -1,0 +1,15 @@
+.switch-button {
+    border: none;
+    background: none;
+    color:#6e6d6d;
+    outline: none;
+    display: inline-block;
+    float: right;
+    transition: all 0.2s;
+    height: 35px;
+    width: 35px;
+}
+
+.switch-button:hover {
+    color: #363636;
+}

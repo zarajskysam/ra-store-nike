@@ -1,0 +1,67 @@
+
+
+.shop-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.shop-card h2 {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.shop-card p {
+    margin: 0;
+    padding: 0;
+}
+
+.shop-card .price-card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 12px 12px 2px 1px rgba(181, 181, 181, 0.5);;
+    margin-bottom: 40px;
+}
+
+
+.shop-card img {
+    width: 200px;
+}
+
+.shop-card .price {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop-card .price-info {
+    color: #d53e2d;
+    font-weight: 800;
+    align-items: center;
+}
+
+.shop-card .price-button {
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #d53e2d;
+    background: none;
+    border: 2px solid #d53e2d;
+    border-radius: 30px;
+    padding: 5px 10px;
+    transition: all .2s; 
+    outline: none;
+}
+
+.shop-card .price-button:hover {
+    color: white;
+    background-color: #d53e2d;
+} 
